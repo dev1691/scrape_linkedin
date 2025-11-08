@@ -1,0 +1,17 @@
+version: "3.8"
+
+services:
+  linkedin-scraper:
+    build: .
+    env_file:
+      - .env
+    environment:
+      - HEADLESS=${HEADLESS:-true}
+      - CHROME_BIN=/usr/bin/chromium
+    volumes:
+      - ./output:/app/output
+      - ./logs:/app/logs
+      - ./.env:/app/.env:ro
+    ports:
+      - "8000:8000"
+    restart: "no"
