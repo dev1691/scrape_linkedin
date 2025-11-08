@@ -475,10 +475,6 @@ docker-compose up --build
 4. Push to branch: `git push origin feature/amazing-feature`
 5. Open Pull Request
 
-## 📄 License
-
-MIT License - see LICENSE file for details
-
 ## ⚖️ Legal Disclaimer
 
 This tool is for educational and research purposes only. Users are responsible for:
@@ -504,5 +500,6 @@ For issues or questions:
 3. Open an issue on GitHub
 
 ---
+
 
 **Use Responsibly!** 🚀🔍📊
